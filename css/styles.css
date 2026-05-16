@@ -16,15 +16,15 @@ h1 {
 h2 {
     text-align: center;
     margin: 20px 0;
-    font-size: clamp(1.9rem, 5vw, 2.6rem);
+    font-size: clamp(1.9rem, 6vw, 2.6rem);
 }
 h3 {
-    font-size: clamp(1.2rem, 3vw, 1.6rem);
+    font-size: clamp(1.2rem, 2vw, 1.6rem);
     text-align: center;
     margin-bottom: 10px;
 }
 p {
-    font-size: clamp(0.85rem, 4vw, 1.07rem);
+    font-size: clamp(0.85rem, 1vw, 1.07rem);
     text-align: center;
 }
 header {
@@ -50,21 +50,20 @@ div.imagem {
     justify-content: start;
 }
 button {
-    border: 1.6px solid #fff;
-    margin: 8px 0;
-    background-color: #30261c;
-    color: #fff;
-    padding: 10px 18px;
-    border-radius: 20px;
     font-size: clamp(0.84rem, 4vw, 1.08rem);
     font-weight: 600;
+    color: #fff;
+    background-color: #30261c;
+    border: 1px solid #fff;
+    padding: 0.6rem 1.4rem;
+    margin: 0.2rem 0;
+    border-radius: 2rem;
     transition: all  0.3s
 }
 button:hover {
-    border: 2px solid #30261c;
     background-color: #fff;
     color: #30261c;
-    transform: scale(1.03);
+    border: 1px solid #30261c;
 }
 img.main-image {
     width: 520px;
@@ -104,16 +103,16 @@ div.planos {
     justify-content: center;
     align-items: center;
     gap: 2.6rem;
-    margin-top: 40px;
+    margin-top: 2rem;
 }
 div.card {
-    width: 100%;
-    max-width: 380px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 0.8rem;
+    width: 100%;
+    max-width: 380px;
 }
 footer {
     padding: 1rem 0;
@@ -121,7 +120,7 @@ footer {
     color: #fff;
  
 }
-i.fa-solid {
+i.fa-cat {
     display: none;
 }
 @media screen and (max-width: 1080px){
